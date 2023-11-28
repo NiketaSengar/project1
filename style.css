@@ -10,7 +10,7 @@
 }
 
 body {
-    overflow-x: hidden;
+    overflow-x:hidden;
 }
 
 header {
@@ -997,8 +997,93 @@ header section .contentbox .description{
 }
 }
 
-@media screen and (max-width:640px) {
-    .footer{
-        width:200%;
-    }
+
+ @media screen and (max-width:360px) {
+    
+    header::before {
+        content: '';
+        width:90%;
+        margin-right: -86%;
 }
+
+header section .nutrition {
+    margin-right: -26em;
+}
+header nav ul li a{
+    font-size:.6em;
+ }
+    header nav .contact ul{
+        margin-left: 90%;
+        font-size: 0.6em;
+    }
+
+   .contentbox .head {
+    margin-top: 2%;
+   }
+   
+   header section .contentbox .description {
+    width: 88%;
+    margin-left: 6%;
+   }
+
+   .offers .couponsimg{
+    width:151%;
+    height: -1%;
+   }
+
+   .delivery h5{
+    margin-top:17%;
+    font-size:1.2em
+   }
+
+   .delivery .deliveryimg img:nth-child(1) {
+    left:150%;
+}
+
+.delivery .deliveryimg img:nth-child(2) {
+    left:130%;
+}
+   .delivery p{
+    width: 82%;
+    margin-left:22%;
+   }
+   .offers .arrows{
+    margin-top: -42%;
+    margin-right: -74%;
+   }
+   .assure img {
+    margin-left:40%;
+    width:124%;
+   }
+   .delivery button {
+    margin-left:37%;
+   }
+   .assure p {
+    margin-left:  59%;
+    width: 70%;
+   }
+   .mobileview {
+    width:196%
+   }
+
+   .head h1{
+    margin-right: -57%;
+    margin-top: -37%;
+   }
+    header nav .contact ul li a:nth-last-child(1) {
+        width: 20em;
+    }
+
+    header nav .logo ul {
+        padding: 0.7em;
+    }
+
+    header nav .logo img {
+        width: 1.5em;
+        margin-left:-10%;
+        margin-bottom: 4%;
+     }
+.footer{
+    width:200%;
+}
+    }
