@@ -10,7 +10,7 @@
 }
 
 body {
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 header {
@@ -189,6 +189,32 @@ header section .contentbox .description {
     color: rgb(80, 53, 53);
 }
 
+.contentbox .head #one{
+background-image: linear-gradient(to right,rgb(248, 177, 45),rgba(165, 42, 42, 0.671));
+-webkit-background-clip: text;
+animation:ani 3s ease infinite;
+background-size:1000%;
+color:transparent;
+}
+
+.contentbox .head #two{
+    background-image: linear-gradient(to right,rgb(93, 60, 0),rgba(42, 165, 75, 0.671));
+    -webkit-background-clip: text;
+    animation:ani 3s ease infinite;
+    background-size:1000%;
+    color:transparent;
+    }
+@keyframes ani{
+0%{
+    background-position:0% ;
+}
+50%{
+    background-position:100% ;
+}
+100%{
+    background-position:0% ;
+}
+}
 header section .contentbox .description ul {
     list-style: none;
     margin-top: 10px;
